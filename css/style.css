@@ -1,2 +1,62 @@
 @import url("reset.css");
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(159, 91, 162);
+    align-items: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    object-fit: cover;
+}
+
+.info-container {
+    gap: 1rem;
+}
+
+
+@media (min-width: 500px) {
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+}
+}
+
+@media (min-width: 768px) {
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 768px;
+    justify-content: space-around;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+}
