@@ -33,11 +33,11 @@ To view the project locally, you can either open the project files in your code 
 
 In `index.html`, add the following for your contact card:
 
-- [ ] A Profile Image (your image should be stored in the images folder)
-- [ ] A Name
-- [ ] Title
-- [ ] Phone Number
-- [ ] Company Name
+- [x] A Profile Image (your image should be stored in the images folder)
+- [x] A Name
+- [x] Title
+- [x] Phone Number
+- [x] Company Name
 
 In `style.css`, do the following:
 
